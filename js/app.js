@@ -21,9 +21,9 @@ const loadPage = async page => {
  * The Async function loads all HTML to the variables 'home', 'about' & 'contact'
  */
 const loadAllPages = async () => {
-  home = await loadPage("home.html")
-  about = await loadPage("about.html")
-  contact = await loadPage("contact.html")
+  home = await loadPage("../templates/home.html")
+  about = await loadPage("../templates/about.html")
+  contact = await loadPage("../templates/contact.html")
 }
 
 //Get the Element with the Id 'root'
